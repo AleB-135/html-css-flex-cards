@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: rgb(160, 14, 14);
+    margin-top: 20px; 
+}
+
+header p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.container {
+    flex-wrap: wrap;
+    width: 350px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    display: inline-flex;
+}
+
+.profile-pic {
+    width: 100px;
+}
+
+.right-side {
+    text-align: justify;
+    margin: 15px;
+}
+
+.name {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.role {
+    font-size: 13px;
+}
+
+.name,
+.role,
+.email {
+    margin-bottom: 5px;
+}
+
+.name:hover,
+.role:hover {
+    cursor: default;
+}
+
+a p {
+    text-decoration: none;
+    color: rgb(113, 184, 255);
+}
