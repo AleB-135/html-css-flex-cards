@@ -19,14 +19,20 @@ header {
     margin: 20px 0 20px 0;
 }
 
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .card {
-    margin: 50px 20px 0 0;
-    padding: 1px;
-    width: 800px;
-    background-color: black;
+    margin-top: 50px;
     display: flex;
+    align-items: center;
+    width: 370px;
+    background-color: black;
     color: white;
+    margin-right: 30px;
 }
 
 .card img {
@@ -40,8 +46,13 @@ section {
 div h3,
 div h4 {
     padding: 5px;
-    margin-top: 2px;
-    margin-left: 15px;
+    margin: 2px 0 0 15px;
+}
+
+
+.job,
+.email {
+    font-weight: 400;
 }
 
 .email a {
